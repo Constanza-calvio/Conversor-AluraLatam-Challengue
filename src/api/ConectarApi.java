@@ -35,14 +35,11 @@ public class ConectarApi{
 
     }
 
-
     @SerializedName("base_code") // Corresponde a "base_code" en el JSON
     private String baseCode;
 
     @SerializedName("conversion_rates") // Corresponde a "conversion_rates" en el JSON
     private Map<String, Double> conversionRates;
-
-
 
 
    //METODO PARA TENER TASA DE CONVERSION DE MONEDAS
